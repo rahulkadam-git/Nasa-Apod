@@ -1,0 +1,30 @@
+.Nasaphoto-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    position: absolute;
+    top: 5%;
+    left: 0;
+
+}
+.Nasaphoto-img{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    flex: 1 1 20px;
+    img,iframe{
+       width:600px;
+       height:500px;
+      
+   }
+
+}
+.Nasaphoto-details{
+  flex: 1 1 20px;
+  padding: 0.5rem;
+    margin: 0.5rem;
+    h1,h4,h3{
+        padding: 0.5rem;
+        
+    }
+}
